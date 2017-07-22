@@ -1,0 +1,27 @@
+{
+    "Luke Skywalker": {
+        "classification": "Attacker", 
+        "factions": ["Light Side", "Human", "Rebel"],
+        "locations": ["Cantina 1-B Normal", "Cantina 5-A Normal", "Light Side 7-D Hard", "Guild Shipments"]
+    },
+    "Grand Admiral Thrawn": {
+        "classification": "Support", 
+        "factions": ["Dark Side", "Empire"], 
+        "locations": ["None"]
+    },
+    "Kylo Ren": {
+        "classification": "Attacker", 
+        "factions": ["Dark Side", "Human", "First Order"],
+        "locations": ["Cantina 4-C Normal", "Cantina 6-C Normal"]
+    },
+    "R2-D2": {
+        "classification": "Support",
+        "factions": ["Light Side", "Droid", "Rebel", "Galactic Republic", "Resistance"], 
+        "locations": ["None"]
+    }, 
+    "Sith Trooper": {
+        "classification": "Tank", 
+        "factions": ["Dark Side", "Sith", ],
+        "locations": ["Cantina 8-B Normal"]
+    }
+}
