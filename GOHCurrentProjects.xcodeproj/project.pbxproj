@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		EB7F9E421F23B5DF00668AAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7F9E411F23B5DF00668AAE /* AppDelegate.swift */; };
-		EB7F9E441F23B5DF00668AAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7F9E431F23B5DF00668AAE /* ViewController.swift */; };
+		EB7F9E441F23B5DF00668AAE /* ShowCharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7F9E431F23B5DF00668AAE /* ShowCharactersViewController.swift */; };
 		EB7F9E471F23B5DF00668AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7F9E451F23B5DF00668AAE /* Main.storyboard */; };
 		EB7F9E491F23B5DF00668AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB7F9E481F23B5DF00668AAE /* Assets.xcassets */; };
 		EB7F9E4C1F23B5DF00668AAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7F9E4A1F23B5DF00668AAE /* LaunchScreen.storyboard */; };
+		EBD556AF1F23C2FB00FF2A76 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD556AE1F23C2FB00FF2A76 /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB7F9E3E1F23B5DF00668AAE /* GOHCurrentProjects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOHCurrentProjects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7F9E411F23B5DF00668AAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB7F9E431F23B5DF00668AAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB7F9E431F23B5DF00668AAE /* ShowCharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCharactersViewController.swift; sourceTree = "<group>"; };
 		EB7F9E461F23B5DF00668AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB7F9E481F23B5DF00668AAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB7F9E4B1F23B5DF00668AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB7F9E4D1F23B5DF00668AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD556AE1F23C2FB00FF2A76 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				EB7F9E411F23B5DF00668AAE /* AppDelegate.swift */,
-				EB7F9E431F23B5DF00668AAE /* ViewController.swift */,
+				EB7F9E431F23B5DF00668AAE /* ShowCharactersViewController.swift */,
 				EB7F9E451F23B5DF00668AAE /* Main.storyboard */,
 				EB7F9E481F23B5DF00668AAE /* Assets.xcassets */,
 				EB7F9E4A1F23B5DF00668AAE /* LaunchScreen.storyboard */,
 				EB7F9E4D1F23B5DF00668AAE /* Info.plist */,
+				EBD556AE1F23C2FB00FF2A76 /* Character.swift */,
 			);
 			path = GOHCurrentProjects;
 			sourceTree = "<group>";
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB7F9E441F23B5DF00668AAE /* ViewController.swift in Sources */,
+				EBD556AF1F23C2FB00FF2A76 /* Character.swift in Sources */,
+				EB7F9E441F23B5DF00668AAE /* ShowCharactersViewController.swift in Sources */,
 				EB7F9E421F23B5DF00668AAE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +306,7 @@
 				EB7F9E521F23B5DF00668AAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
