@@ -12,6 +12,7 @@
 		EB7F9E471F23B5DF00668AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7F9E451F23B5DF00668AAE /* Main.storyboard */; };
 		EB7F9E491F23B5DF00668AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB7F9E481F23B5DF00668AAE /* Assets.xcassets */; };
 		EB7F9E4C1F23B5DF00668AAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7F9E4A1F23B5DF00668AAE /* LaunchScreen.storyboard */; };
+		EBB10D221F26AB81002CD26D /* dummyData.json in Resources */ = {isa = PBXBuildFile; fileRef = EBB10D211F26AB81002CD26D /* dummyData.json */; };
 		EBD556AF1F23C2FB00FF2A76 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD556AE1F23C2FB00FF2A76 /* Character.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		EB7F9E481F23B5DF00668AAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB7F9E4B1F23B5DF00668AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB7F9E4D1F23B5DF00668AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBB10D211F26AB81002CD26D /* dummyData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dummyData.json; sourceTree = "<group>"; };
 		EBD556AE1F23C2FB00FF2A76 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +58,7 @@
 		EB7F9E401F23B5DF00668AAE /* GOHCurrentProjects */ = {
 			isa = PBXGroup;
 			children = (
+				EBB10D211F26AB81002CD26D /* dummyData.json */,
 				EB7F9E411F23B5DF00668AAE /* AppDelegate.swift */,
 				EB7F9E431F23B5DF00668AAE /* ShowCharactersViewController.swift */,
 				EB7F9E451F23B5DF00668AAE /* Main.storyboard */,
@@ -127,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBB10D221F26AB81002CD26D /* dummyData.json in Resources */,
 				EB7F9E4C1F23B5DF00668AAE /* LaunchScreen.storyboard in Resources */,
 				EB7F9E491F23B5DF00668AAE /* Assets.xcassets in Resources */,
 				EB7F9E471F23B5DF00668AAE /* Main.storyboard in Resources */,
